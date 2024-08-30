@@ -17,27 +17,47 @@ The dataset used for this project includes various customer attributes such as s
 ## Data Understanding
 The dataset includes the following features:
 
-State: The state in which the customer resides.
-Account Length: The duration (in days) the customer has had an account.
-Area Code: The area code of the customer's phone number.
-Phone Number: The customer's phone number (non-informative for modeling).
-International Plan: Whether the customer has an international calling plan (yes or no).
-Voice Mail Plan: Whether the customer has a voice mail feature (yes or no).
-Number Vmail Messages: The number of voice mail messages the customer has.
-Total Day Minutes: Total minutes the customer has used during the day.
-Total Day Calls: Total number of calls made daily.
-Total Day Charge: Total charges incurred during the day (derived from minutes).
-Total Eve Minutes: Total minutes the customer has used during the evening.
-Total Eve Calls: Total number of calls made during the evening.
-Total Eve Charge: Total charges incurred during the evening (derived from minutes).
-Total Night Minutes: Total minutes the customer has used during the night.
-Total Night Calls: Total number of calls made during the night.
-Total Night Charge: Total charges incurred during the night (derived from minutes).
-Total Intl Minutes: Total minutes used for international calls.
-Total Intl Calls: Total number of international calls made.
-Total Intl Charge: Total charges incurred for international calls (derived from minutes).
-Customer Service Calls: Number of calls made to customer service.
-Churn: The target variable, indicating whether the customer churned (True) or not (False).
+**State:** The state in which the customer resides.
+
+**Account Length:** The duration (in days) the customer has had an account.
+
+**Area Code:** The area code of the customer's phone number.
+
+**Phone Number:** The customer's phone number (non-informative for modeling).
+
+**International Plan:** Whether the customer has an international calling plan (yes or no).
+
+**Voice Mail Plan:** Whether the customer has a voice mail feature (yes or no).
+
+**Number Vmail Messages:** The number of voice mail messages the customer has.
+
+**Total Day Minutes:** Total minutes the customer has used during the day.
+
+**Total Day Calls:** Total number of calls made daily.
+
+**Total Day Charge:** Total charges incurred during the day (derived from minutes).
+
+**Total Eve Minutes:** Total minutes the customer has used during the evening.
+
+**Total Eve Calls:** Total number of calls made during the evening.
+
+**Total Eve Charge:** Total charges incurred during the evening (derived from minutes).
+
+**Total Night Minutes:** Total minutes the customer has used during the night.
+
+**Total Night Calls:** Total number of calls made during the night.
+
+**Total Night Charge:** Total charges incurred during the night (derived from minutes).
+
+**Total Intl Minutes:** Total minutes used for international calls.
+
+**Total Intl Calls:** Total number of international calls made.
+
+**Total Intl Charge:** Total charges incurred for international calls (derived from minutes).
+
+**Customer Service Calls:** Number of calls made to customer service.
+
+**Churn:** The target variable, indicating whether the customer churned (True) or not (False).
 
 ## Data Preparation
 ### The datasets were cleaned. Steps included:
