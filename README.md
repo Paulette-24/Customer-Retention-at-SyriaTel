@@ -84,15 +84,15 @@ The dataset includes the following features:
 
 ## Visualizations
 ### Correlation Analysis
-![Correlation Analysis](images/correlation_analysis.png)
+![download](https://github.com/user-attachments/assets/387ce9f4-143e-43b4-9490-75dc19600036)
 Correlation Analysis will help us identify which features may be most influential in predicting customer churn.
 
 ### Univariate Analysis
-![Univariate Analysis](images/univariate_analysis.png)
+![download (2)](https://github.com/user-attachments/assets/03e9cacb-b5f6-4817-b393-5e7b9dcb2d77)
 Univariate Analysis helps to compare the usage patterns (total day minutes) between customers who churn and those who do not. This type of analysis is exploratory as it gives insights into how customer behavior (in terms of usage) might be linked to their decision to stay or leave.
 
 ### Bivariate Analysis
-![Bivariate Analysis](images/bivariate_analysis.png)
+![download (3)](https://github.com/user-attachments/assets/94612ad2-7362-4b55-be71-8dccfa6384aa)
 Bivariate analysis explores the relationship between two variables: "customer service calls" (independent variable) and "churn" (dependent variable). The analysis examines how the churn rate varies with different levels of customer service calls.
 
 ## Modeling
