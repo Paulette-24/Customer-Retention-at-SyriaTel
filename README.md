@@ -113,6 +113,8 @@ Recall: 75.9%
 F1 Score: 84.6%
 AUC-ROC: 0.91
 
+![roc](https://github.com/user-attachments/assets/60de1c23-d29a-4879-bc70-d32c24de3353)
+
 These metrics demonstrate the model's ability to accurately predict customer churn, with a particular focus on minimizing false negatives (i.e., failing to identify customers who will churn).
 
 ## Conclusion
