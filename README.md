@@ -4,6 +4,9 @@
 
 This repository contains an analysis of customer data from Syriatel to provide insights into factors that contribute to customer churn. 
 
+## Links
+- [Canva Presentation](https://www.canva.com/design/DAGPSgnehuo/DjR5vqgN-jziOU7GWlqk5g/edit?utm_content=DAGPSgnehuo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Project Overview
 In this project, I developed a predictive model to identify customers who are likely to churn from Syriatel, a telecommunications company. By analyzing customer behavior and service usage patterns, I aimed to help Syriatel proactively retain at-risk customers, thereby reducing revenue loss and improving customer satisfaction.
 
@@ -84,15 +87,15 @@ The dataset includes the following features:
 
 ## Visualizations
 ### Correlation Analysis
-![Correlation Analysis](images/correlation_analysis.png)
+![download](https://github.com/user-attachments/assets/387ce9f4-143e-43b4-9490-75dc19600036)
 Correlation Analysis will help us identify which features may be most influential in predicting customer churn.
 
 ### Univariate Analysis
-![Univariate Analysis](images/univariate_analysis.png)
+![download (2)](https://github.com/user-attachments/assets/03e9cacb-b5f6-4817-b393-5e7b9dcb2d77)
 Univariate Analysis helps to compare the usage patterns (total day minutes) between customers who churn and those who do not. This type of analysis is exploratory as it gives insights into how customer behavior (in terms of usage) might be linked to their decision to stay or leave.
 
 ### Bivariate Analysis
-![Bivariate Analysis](images/bivariate_analysis.png)
+![download (3)](https://github.com/user-attachments/assets/94612ad2-7362-4b55-be71-8dccfa6384aa)
 Bivariate analysis explores the relationship between two variables: "customer service calls" (independent variable) and "churn" (dependent variable). The analysis examines how the churn rate varies with different levels of customer service calls.
 
 ## Modeling
@@ -113,19 +116,30 @@ Recall: 75.9%
 F1 Score: 84.6%
 AUC-ROC: 0.91
 
-These metrics demonstrate the model's ability to accurately predict customer churn, with a particular focus on minimizing false negatives (i.e., failing to identify customers who will churn).
+![roc](https://github.com/user-attachments/assets/60de1c23-d29a-4879-bc70-d32c24de3353)
+
+These metrics demonstrate the model's ability to accurately predict customer churn, with a particular focus on minimizing false negatives (i.e., failing to identify customers who will churn). The ROC curve also demonstrates that the model is a reliable choice for predicting customer churn.
 
 ## Conclusion
-The analysis identified key factors contributing to customer churn, such as the number of customer service calls and high day-time usage. By addressing these factors, Syriatel can improve customer retention. The Random Forest model provides a reliable tool for identifying at-risk customers, enabling proactive retention strategies that can lead to significant cost savings.
+- Customers who frequently contact customer service are more likely to leave.
+
+- People who use the service more, especially during the day, are less likely to leave.
+
+- Higher charges, especially for daytime calls, can push customers away. Pricing matters.
+
+- Customers with international plans are more likely to leave if they find better deals or no longer need the service.
+
+- The Random Forest model outperformed other models, effectively balancing accuracy, precision, and recall. Cross-validation showed that the model is consistent and reliable, making it a strong tool for predicting customer churn.
 
 ## Next Steps
-Implementation: Deploy the model in a live environment to continuously monitor and predict customer churn.
+- Focus on resolving customer issues quickly and effectively to reduce churn, especially for those who frequently call customer service.
 
-Actionable Insights: Use the insights from the model to enhance customer service interactions and offer personalized retention plans to high-risk customers.
+- Encourage high usage by offering incentives or special offers to keep customers actively using the service.
 
-Further Analysis: Explore additional features and data sources to refine the model further and ensure it adapts to changing customer behaviors.
+- Consider adjusting pricing, particularly for daytime charges, to remain competitive and retain price-sensitive customers.
 
-## Links
-- [Canva Presentation](https://www.canva.com/design/DAGPSgnehuo/DjR5vqgN-jziOU7GWlqk5g/edit?utm_content=DAGPSgnehuo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Tailor international plans and other services to match customer needs, which could help prevent them from leaving.
+
+- Use the Random Forest model in your churn prediction efforts, as it provides the best balance between accuracy and identifying potential churners
 
 
