@@ -1,9 +1,8 @@
-# Customer-Retention-at-SyriaTel
+# SyriaTel Customer Churn Prediction and Analysis
 
-![image](SyriaTel-Customer-Churn-Analysis/Telecommunications.jpg)
-![Photo by Pixabay](https://www.pexels.com/photo/view-of-communications-tower-against-cloudy-sky-256102/) 
+![image](Telecommunications.jpg)
 
-This repository contains an analysis of customer data from SyriaTel to provide insights into factors that contribute to customer churn. The goal is to help SyriaTel identify at-risk customers and develop strategies to improve customer retention.
+This repository contains an analysis of customer data from Syriatel to provide insights into factors that contribute to customer churn. 
 
 ## Project Overview
 In this project, I developed a predictive model to identify customers who are likely to churn from Syriatel, a telecommunications company. By analyzing customer behavior and service usage patterns, I aimed to help Syriatel proactively retain at-risk customers, thereby reducing revenue loss and improving customer satisfaction.
